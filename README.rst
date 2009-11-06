@@ -1,5 +1,5 @@
 Django Lingo
-======
+============
 
 `Lingo`_ is a reusable django app which provides extensible, pure-python fulltext indexing for Django models using the `Lingo`_ information-retrieval library. 
 
@@ -9,7 +9,7 @@ The django-lingo project lives at http://github.com/ryates/django-lingo/.
 
 
 What is Lingo?
--------------
+--------------
 Django-lingo is a simple Django app that allows you to customize the labels of ModelForm-based forms.  The initial version ties customizations to the contrib.auth User objects, but future revisions will support allowing developers implementing Lingo to provide customizations based on whatever seems appropriate (e.g. Sites, Business Unit, etc.).  
 
 Lingo is not strings localization.  Strings localization is typically locale-based and relies on translations that are built once and generally don't change.  Lingo is designed for having a single model that needs to display labels differently based on varying terms or lingo used.
